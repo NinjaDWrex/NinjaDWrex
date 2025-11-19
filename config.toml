@@ -1,0 +1,51 @@
+theme = "catppuccin_mocha" # objectively the best theme
+
+[editor]
+cursorline = true # highlight the line the cursor is on
+color-modes = true # cool feature for editing the colour of down at the bottom based on what mode it is on
+true-color = true
+scrolloff = 8
+bufferline = "multiple"
+line-number = "relative" # gives relative line numers from the highlighted line on normal mode. This allows for efficient selecting of lines etc
+default-yank-register = "+" # automatically pastes from the system clipboard
+scroll-lines = 4
+end-of-line-diagnostics = "hint"
+
+[editor.inline-diagnostics]
+cursor-line = "hint"
+
+[editor.cursor-shape]
+insert = "bar" # use "normal" cursor for insert
+normal = "block" # use the block selector for normal
+select = "underline" # underline when selecting
+
+[editor.statusline]
+left = ["mode", "spinner"]
+center = ["file-name"]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+separator = "│"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+# this is taken off of Schr3da where I liked his config
+
+[editor.indent-guides]
+render = true # show the indent lines
+
+[editor.whitespace.render]
+space = "all"
+tab = "all"
+nbsp = "none"
+nnbsp = "none"
+newline = "none"
+
+[editor.whitespace.characters]
+space = "·"
+tab = "→"
+tabpad = "·"
+# fancy rendering of whitespace
+
+[keys.normal]
+"^" = "match_brackets" # allows you to use ^ to go to the other bracket of the pair VERY helpful
+"$" = "goto_line_end" # vim command
+0 = "goto_line_start" # vim command
