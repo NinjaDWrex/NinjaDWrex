@@ -19,7 +19,9 @@
   [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/ninjadwrex) 
   
   btc: bc1pke2ufyx80m5lhdgz5frexf09wlh3v4tstytus3vtyw4y8x6jecmsvl62tr
+  
   sol: AeM8736ZS1gU8dt1bQtg9HR1KhxW28WQbotoanYtKUY1
+  
   xmr: 47uc8SKdNga79zD8bNmQgSWmXdwNjjotV7v1LwZxsybt6Argc3YudH2Bxg76YdTBHuQxFg3tfyFitXDNMey462g71NRnsNs
   
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
